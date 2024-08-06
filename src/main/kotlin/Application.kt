@@ -4,7 +4,7 @@ import javafx.stage.Stage
 import tornadofx.App
 import tornadofx.importStylesheet
 
-class Aplication : App() {
+class Application : App() {
     override val primaryView = Calculator::class
 
     override fun start(stage: Stage) {
